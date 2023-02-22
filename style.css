@@ -1,0 +1,120 @@
+body {
+    font-family:fantasy;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border: brown solid 4px;
+}
+
+header img {
+    width: 300px;
+}
+
+header a {
+    width: 500px;
+    text-decoration: none;
+    margin: auto;
+    color: black;
+    margin-right: 30px;
+    align-items: flex-end; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header a:hover {
+text-decoration-line:underline;
+}
+
+
+
+main .p {
+color: white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 90px;
+text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+}
+
+
+article{
+    width: 150px;
+    text-align: center;
+    padding: 70px;
+    border: 5px solid black;
+    margin: 40px 0px 40px 80px;
+    background-color: white;
+}
+
+article p {
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 250px; 
+    background-color: white;
+}
+
+span {
+    color: #940002;
+    font-size: large;
+}
+
+
+
+.a {
+    width: 100%;
+}
+
+div{
+    position: relative;
+}
+div p {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+/*
+ .card {
+width: 10px;
+height: 10px;
+ }*/
+
+.meow {
+    position: relative;
+}
+
+.history {
+    text-align: justify;
+    font-size: 20px;
+    width: 40%;
+}
+
+.g {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+.img1 {
+    position: relative;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.img2 {
+    position: relative;
+    top: 60px;
+    right: 60px;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.img3 {
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    box-shadow: 2px 2px 5px 3px black;
+}
