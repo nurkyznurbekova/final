@@ -24,6 +24,8 @@ header a {
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
 header a:hover {
 text-decoration-line:underline;
 }
@@ -45,7 +47,9 @@ article{
     border: 5px solid black;
     margin: 40px 0px 40px 80px;
     background-color: white;
+    position: relative;
 }
+
 
 article p {
     font-size: 20px;
@@ -108,13 +112,138 @@ height: 10px;
 .img2 {
     position: relative;
     top: 60px;
-    right: 60px;
+    right: 30px;
     box-shadow: 2px 2px 5px 3px black;
 }
 
 .img3 {
     position: relative;
     bottom: 30px;
-    left: 50px;
+    left: 80px;
     box-shadow: 2px 2px 5px 3px black;
+}
+
+.b {
+    margin-top: 710px;
+    width: 100%
+}
+
+.bu {
+    margin-top: 670px;
+    margin-left: 340px;
+    font-size: 100px;
+    box-shadow:  2px 2px 5px 0 black;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.catalog a {
+text-decoration: none;
+color: black;
+font-size: 30px;
+margin-left: 90px;
+}
+
+.product {
+    border: none;
+}
+
+.product img{
+    border-radius: 500px;
+    box-shadow: 2px 2px 5px 0 black;
+}
+
+.catalog{
+    margin-top: 80px;
+}
+
+.catalo{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.catalo a {
+text-decoration: none;
+color: black;
+font-size: 30px;
+margin-left: 60px;
+}
+
+.produc {
+    border: none;
+}
+
+.produc img{
+    border-radius: 550px;
+    box-shadow: 2px 2px 5px 0 black;
+}
+
+.cook {
+    margin-top: 80px;
+    margin-left: 400px;
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.produ {
+    margin-top: 200px;
+    border: none;
+}
+
+
+
+.cookie {
+    margin-left: 410px;
+    opacity: 0.7;
+}
+
+.catal a{
+text-decoration: none;
+font-size: 40px;
+color: black;
+margin-left: 90px;
+}
+
+.catal a:hover {
+    opacity: 0.5;
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+.catal img {
+    box-shadow: 2px 2px 5px 0 black;
+}
+
+
+footer {
+    margin-top: 190px;
+    border: black;
+    background-image: url(https://luminofor.ru/images/product_images/popup_images/3678_1.jpg);
+}
+
+footer p {
+    color: black;
+}
+
+footer img {
+    margin-left: 35px;
+}
+
+
+.p {
+    background-color: white;
+}
+
+
+.das {
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.2;
+    color: red;
+    font-family:unset;
+}
+
+.das:hover{
+opacity: 1;
+transition: 0.5s ease-out;
 }
